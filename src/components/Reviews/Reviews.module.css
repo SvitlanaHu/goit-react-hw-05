@@ -1,0 +1,16 @@
+.cont {
+  margin-left: 30px;
+}
+.author {
+  font-size: 18px;
+  font-weight: 600;
+}
+.content {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

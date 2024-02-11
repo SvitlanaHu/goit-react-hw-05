@@ -1,0 +1,23 @@
+.img {
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+}
+.card {
+  display: flex;
+  gap: 20px;
+}
+.title {
+  font-weight: 600;
+  font-size: 23px;
+}
+.descBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.overview,
+.gerres {
+  font-size: 16px;
+  font-weight: 600;
+}

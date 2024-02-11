@@ -1,0 +1,15 @@
+.link {
+  color: yellow;
+  /* background-color: black; */
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}

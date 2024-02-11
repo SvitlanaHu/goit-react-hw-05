@@ -1,0 +1,11 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.list {
+  margin-top: 10px;
+  margin-left: 35px;
+}
