@@ -8,7 +8,7 @@ export const MoviesList = ({ films }) => {
     <ul className={styles.list}>
       {films.map((film) => (
         <li key={film.id}>
-          <Link to={`/movies/${film.id}`} state={location}>
+          <Link to={`/movies/${film.id}`} state={location} className={styles.link}>
             {film.title}
           </Link>
         </li>

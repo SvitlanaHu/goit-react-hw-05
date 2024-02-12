@@ -13,3 +13,16 @@
   color: yellow;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
+.btn {
+  padding: 5px 10px;
+  color: yellow;
+  background-color: rgb(55, 56, 56);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.btn:hover,
+.btn:focus {
+  color: orangered;
+  background-color: rgb(39, 40, 40);
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}

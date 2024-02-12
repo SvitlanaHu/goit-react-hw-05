@@ -1,7 +1,16 @@
 .list {
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 100px;
   display: flex;
   flex-direction: column;
   gap: 5px;
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+  color: #bdef84;
+}
+.link:hover,
+.link:focus {
+  color: orangered;
 }

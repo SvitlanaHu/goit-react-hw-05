@@ -5,7 +5,7 @@ export const Loader = () => {
   return (
     <div className={styles.loaderCont}>
       <FallingLines
-        color="#0066b2"
+        color="#bdef84"
         width="100"
         visible={true}
         ariaLabel="falling-circles-loading"

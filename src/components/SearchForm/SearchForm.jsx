@@ -21,7 +21,7 @@ const SearchForm = ({ onSearch }) => {
           placeholder="Enter keyword"
           className={styles.input}
         />
-        <button type="submit">Search</button>
+        <button type="submit" className={styles.btn}>Search</button>
       </form>
     </>
   );
