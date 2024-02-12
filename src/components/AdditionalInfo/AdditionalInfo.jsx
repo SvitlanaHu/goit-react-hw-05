@@ -25,4 +25,3 @@ export const AdditionalInfo = () => {
   );
 };
 
-// export default AdditionalInfo;

@@ -2,6 +2,13 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   background-color: rgb(37, 37, 42);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
 }
 
 h1,
@@ -24,4 +31,11 @@ ol {
 img {
   display: block;
   max-width: 100%;
+}
+
+.notFoundDiv {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }

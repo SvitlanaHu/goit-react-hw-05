@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getMovieCast } from "../API/tmdbApi";
 import { ErrorMessage } from "../ErrorMessage/ErrorMessage";
 import { Loader } from "../Loader/Loader";
-import css from "./Cast.module.css";
+import styles from "./Cast.module.css";
 
 const Cast = () => {
   const defaultImg =
@@ -43,10 +43,10 @@ const Cast = () => {
     <div>
       {error && <ErrorMessage />}
       {loading && <Loader />}
-      <ul className={css.list}>
+      <ul className={styles.list}>
         {actors.map((actor) => (
-          <li key={actor.id} className={css.listItem}>
-            <div className={css.box}>
+          <li key={actor.id} className={styles.listItem}>
+            <div className={styles.box}>
               <img
                 src={
                   actor.profile_path
@@ -57,8 +57,8 @@ const Cast = () => {
                 width={100}
                 height={140}
               />
-              <p className={css.name}>{actor.name}</p>
-              <p className={css.hero}>Character:{actor.character}</p>
+              <p className={styles.name}>{actor.name}</p>
+              <p className={styles.hero}>Character:{actor.character}</p>
             </div>
           </li>
         ))}
@@ -66,5 +66,4 @@ const Cast = () => {
     </div>
   );
 };
-
 export default Cast;

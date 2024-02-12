@@ -45,7 +45,7 @@ const MoviesPage = () => {
     return () => {
       controller.abort();
     };
-  }, );
+  }, [params]);
 
   return (
     <div>

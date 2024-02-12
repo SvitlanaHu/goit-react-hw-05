@@ -4,7 +4,7 @@ import { ErrorMessage } from "../components/ErrorMessage/ErrorMessage";
 import { Loader } from "../components/Loader/Loader";
 import { MoviesList } from "../components/MoviesList/MoviesList";
 
-function HomePage() {
+export default function HomePage() {
   const [popularFilms, setPopularFilms] = useState([]);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -44,5 +44,3 @@ function HomePage() {
     </div>
   );
 }
-
-export default HomePage;

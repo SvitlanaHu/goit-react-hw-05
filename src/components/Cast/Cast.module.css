@@ -1,0 +1,10 @@
+.list {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.name,
+.hero {
+  margin-top: 10px;
+}

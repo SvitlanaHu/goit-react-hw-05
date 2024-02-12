@@ -11,7 +11,7 @@ const NavBar = lazy(() => import("../Navbar/Navbar"));
 const Cast = lazy(() => import("../Cast/Cast"));
 const Reviews = lazy(() => import("../Reviews/Reviews"));
 
-function App() {
+export default function App() {
   return (
     <div>
       <NavBar />
@@ -28,8 +28,7 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Suspense>
-      <Toaster position="top-right" />
+      <Toaster position="top-right" reverseOrder={false} />
     </div>
   );
 }
-export default App;

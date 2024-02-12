@@ -3,7 +3,7 @@ import styles from "./HomePageBtn.module.css";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { useRef } from "react";
 
-export function HomePageBtn() {
+export default function HomePageBtn() {
   const location = useLocation();
   const backRef = useRef(location.state);
 
@@ -14,5 +14,3 @@ export function HomePageBtn() {
     </NavLink>
   );
 }
-
-// export default HomePageBtn;
