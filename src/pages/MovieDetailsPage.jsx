@@ -3,7 +3,7 @@ import { useParams, Outlet } from "react-router-dom";
 import { getMovieById } from "../components/API/tmdbApi";
 import { ErrorMessage } from "../components/ErrorMessage/ErrorMessage";
 import { Loader } from "../components/Loader/Loader";
-import {HomePageBtn} from "../components/HomePageBtn/HomePageBtn";
+import HomePageBtn from "../components/HomePageBtn/HomePageBtn";
 import { MovieCard } from "../components/MovieCard/MovieCard";
 import { AdditionalInfo } from "../components/AdditionalInfo/AdditionalInfo";
 
