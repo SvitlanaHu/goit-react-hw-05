@@ -39,11 +39,11 @@ export default function MovieDetailsPage() {
   }, [movieId]);
 
   return (
-    <div>
+    <main>
       {error && <ErrorMessage />}
       {loading && <Loader />}
       {movie && (
-        <div>
+        <div className="container">
           <HomePageBtn />
 
           <MovieCard movie={movie} />
@@ -55,6 +55,6 @@ export default function MovieDetailsPage() {
           </Suspense>
         </div>
       )}
-    </div>
+    </main>
   );
 }

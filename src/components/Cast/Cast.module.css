@@ -1,10 +1,21 @@
+.container {
+  max-width: 100%;
+}
 .list {
   margin-left: 50px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
+  list-style-type: none;
+  max-width: 700px;
 }
 .name,
 .hero {
   margin-top: 10px;
+}
+.listItem {
+  width: 150px;
+  color: #bdef84;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }

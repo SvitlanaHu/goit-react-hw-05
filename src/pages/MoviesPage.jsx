@@ -48,12 +48,12 @@ const MoviesPage = () => {
   }, [params]);
 
   return (
-    <div>
+    <main>
       {error && <ErrorMessage />}
       <SearchForm onSearch={changeParams} />
       {loading && <Loader />}
       <MoviesList films={searchResults} />
-    </div>
+    </main>
   );
 };
 

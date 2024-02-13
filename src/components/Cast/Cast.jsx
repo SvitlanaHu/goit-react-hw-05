@@ -40,7 +40,7 @@ const Cast = () => {
   }, [movieId]);
 
   return (
-    <div>
+    <div className={styles.container}>
       {error && <ErrorMessage />}
       {loading && <Loader />}
       <ul className={styles.list}>

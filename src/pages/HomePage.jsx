@@ -35,12 +35,12 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div>
+    <main>
       {error && <ErrorMessage />}
       {loading && <Loader />}
       {popularFilms.length > 0 && <p>Trending today</p> && (
         <MoviesList films={popularFilms} />
       )}
-    </div>
+    </main>
   );
 }

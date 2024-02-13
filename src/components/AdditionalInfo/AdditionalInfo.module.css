@@ -3,9 +3,24 @@
   flex-direction: column;
   margin-top: 15px;
   margin-bottom: 15px;
+  max-width: 700px;
 }
 
 .list {
   margin-top: 10px;
   margin-left: 35px;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  gap: 5px;
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+  color: #bdef84;
+}
+.link:hover,
+.link:active,
+.link:focus {
+  color: orangered;
 }

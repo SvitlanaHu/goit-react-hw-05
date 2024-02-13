@@ -7,10 +7,15 @@ body {
   flex-direction: column;
   align-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
   min-height: 100vh;
 }
-
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
 h1,
 h2,
 h3,
@@ -39,4 +44,7 @@ img {
   flex-direction: column;
   align-content: center;
   align-items: center;
+}
+.container {
+  max-width: 750px;
 }
