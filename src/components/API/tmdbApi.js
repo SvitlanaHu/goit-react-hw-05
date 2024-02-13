@@ -11,7 +11,6 @@ export const getPopular = async ({ abortController }) => {
         },
         signal: abortController.signal,
     });
-    console.log('apiData', response.data.results);
     return response.data.results;
 };
 
@@ -25,7 +24,6 @@ export const getMovieById = async ({ movieId, abortController }) => {
             signal: abortController.signal,
         }
     );
-    console.log('api', response.data.results);
     return response.data;
 };
 export const getMovieCast = async ({ movieId, abortController }) => {
@@ -38,7 +36,6 @@ export const getMovieCast = async ({ movieId, abortController }) => {
             signal: abortController.signal,
         }
     );
-    console.log('apiDataCast', response.data.results);
     return response.data.cast;
 };
 
@@ -52,7 +49,6 @@ export const getMovieReviews = async ({ movieId, abortController }) => {
             signal: abortController.signal,
         }
     );
-    console.log('apiData', response.data.results);
     return response.data.results;
 };
 
@@ -66,6 +62,5 @@ export const searchMoviesByKeyword = async ({ keyword, abortController }) => {
             signal: abortController.signal,
         }
     );
-    console.log('apiData', response.data.results);
     return response.data.results;
 };
